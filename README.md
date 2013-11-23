@@ -1,6 +1,8 @@
 jQuery.eventsManager plugin
 ==============
 
+[![Build Status](https://travis-ci.org/tcorral/events_manager.png)](https://travis-ci.org/tcorral/events_manager)
+
 This plugin is used to:
 
 * Copy functions from events attached to one element
