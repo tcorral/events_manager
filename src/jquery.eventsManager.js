@@ -4,7 +4,7 @@
   var oGetEvents, _getJQueryEvents, _loop;
   _getJQueryEvents = function(oElement)
   {
-    return jQuery._data(oElement).events;
+    return jQuery._data(oElement).events || [];
   };
   _loop = function(aItems, fpCallback, fpFinal)
   {
